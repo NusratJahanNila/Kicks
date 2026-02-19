@@ -1,6 +1,16 @@
+/* font family */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-.rubik {
+
+*{
   font-family: "Rubik", sans-serif;
 }
+
+/* css and daisyui */
 @import "tailwindcss";
 @plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #4A69E2;
+  --color-secondary: #232321;
+}
